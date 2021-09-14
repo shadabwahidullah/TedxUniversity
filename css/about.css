@@ -18,6 +18,7 @@
 }
 .normal-title {
   margin: 50px 0px 0px;
+  letter-spacing: 1px;
 }
 .normal-desc {
   font-size: 20px;
@@ -31,9 +32,9 @@ hr {
   color: #d3d3d3;
   opacity: 0.5;
 }
-.past-tedx-wrapper{
-    width: 100%;
-    margin: 40px 0px;
+.past-tedx-wrapper {
+  width: 100%;
+  margin: 40px 0px;
 }
 .previous-event {
   justify-content: center;
@@ -72,14 +73,36 @@ hr {
     ),
     url(/images/tedxKabul.jpg);
 }
-
-.footer{
-    padding: 10px 15%;
+.partners {
+  background-color: #272a31;
+  padding: 20px;
 }
-.footer-logo{
-    width: 40%;
-    height: auto;
+.partners-title {
+  color: white;
 }
-.copyright{
-    line-height: 25px;
+.partners-logos {
+  margin-bottom: 50px;
+}
+.partner {
+  height: 40px;
+  width: auto;
+  margin: 0px 20px;
+}
+.partners-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer {
+  padding: 25px 15%;
+  justify-content: center;
+}
+.footer-logo {
+  width: 40%;
+  height: auto;
+  margin: 0px 10px;
+}
+.copyright {
+  line-height: 25px;
+  margin: 0px 10px;
 }
