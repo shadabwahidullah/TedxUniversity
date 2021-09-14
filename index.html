@@ -30,6 +30,7 @@
         </nav>
       </div>
     </header>
+    <!-- landing page  -->
     <section class="landing-page g-padding">
       <nav>
         <div>
@@ -49,37 +50,40 @@
       <h2 class="time">2021.12.25(FRI) ~ 27(SUN)</h2>
       <p class="place">@Main Auditorium Faculty University</p>
     </section>
-    <section class="main-program">
+    <!-- main events part -->
+    <section class="main-programs flex-h">
+      <h2 class="main-p-title">Main Events</h2>
+      <div class="line"></div>
       <ul class="list">
-        <li class="list-item">
-          <img src="images/women.png" alt="cat-icon" />
-          <h2 class="cat-desc">TEDxWomen</h2>
+        <li class="list-item flex">
+          <img class="icon" src="images/women.png" alt="cat-icon" />
+          <h2 class="cat-title">TEDx Women</h2>
           <p class="cat-desc">
             A TEDxWomen event is a TEDx event which celebrates a number of
             different ideas, from a range of disciplines, either given by or
             relating to women.
           </p>
         </li>
-        <li class="list-item">
-          <img src="" alt="cat-icon" />
-          <h2 class="cat-desc">University event</h2>
+        <li class="list-item flex">
+          <img class="icon" src="images/university.png" alt="cat-icon" />
+          <h2 class="cat-title">University event</h2>
           <p class="cat-desc">
             Holding your event for your university? This event type is for those
             hosted at a college or university, and organized by current
             university administration staff, faculty or students.
           </p>
         </li>
-        <li class="list-item">
-          <img src="" alt="cat-icon" />
-          <h2 class="cat-desc">Youth event</h2>
+        <li class="list-item flex">
+          <img class="icon" src="images/youth.png" alt="cat-icon" />
+          <h2 class="cat-title">Youth event</h2>
           <p class="cat-desc">
             This is a TEDx event organized by, or catered toward, youth and/or
             kids or school communities.
           </p>
         </li>
-        <li class="list-item">
-          <img src="" alt="cat-icon" />
-          <h2 class="cat-desc">Business event</h2>
+        <li class="list-item flex">
+          <img class="icon" src="images/business.png" alt="cat-icon" />
+          <h2 class="cat-title">Business event</h2>
           <p class="cat-desc">
             TEDx Business events provide the framework for businesses to spark
             innovation and ignite conversations through private, staff-only
@@ -87,15 +91,63 @@
             talks.
           </p>
         </li>
-        <li class="list-item">
-          <img src="" alt="cat-icon" />
-          <h2 class="cat-desc">Library event</h2>
+        <li class="list-item flex">
+          <img class="icon" src="images/library.png" alt="cat-icon" />
+          <h2 class="cat-title">Library event</h2>
           <p class="cat-desc">
             This event follows the same format as a standard event, except that
             it is hosted by librarians at a local library.
           </p>
         </li>
       </ul>
+      <button class="btn">Join TEDx Events</button>
+    </section>
+    <!-- feature speakers -->
+    <section class="featured-speakers flex-h">
+      <h2 class="featured-speakers-title">Featured Speakers</h2>
+      <div class="line"></div>
+      <div class="flex speaker-card">
+        <img
+          class="speaker-photo"
+          src="images/speaker01.jpeg"
+          alt="photo of first speaker"
+        />
+        <div class="speaker-body">
+          <h3 class="speaker-name">Tim Urban</h3>
+          <p class="speaker-position">
+            Writer at Wait But Why, New York, NY, United States
+          </p>
+          <hr class="speaker-line" />
+          <p class="speaker-desc">
+            With Wait But Why, Tim Urban demonstrates that complex and long-form
+            writing can stand out in an online wilderness choked with listicles
+            and clickbait.
+          </p>
+        </div>
+      </div>
+      <div class="flex speaker-card">
+        <img
+          class="speaker-photo"
+          src="images/speaker01.jpeg"
+          alt="photo of first speaker"
+        />
+        <div class="speaker-body">
+          <h3 class="speaker-name">Tim Urban</h3>
+          <p class="speaker-position">
+            Writer at Wait But Why, New York, NY, United States
+          </p>
+          <hr class="speaker-line" />
+          <p class="speaker-desc">
+            With Wait But Why, Tim Urban demonstrates that complex and long-form
+            writing can stand out in an online wilderness choked with listicles
+            and clickbait.
+          </p>
+        </div>
+      </div>
+      <div class="flex morebtn">
+        <p class="more">MORE</p>
+        <img class="dropdown" src="images/dropdown.png" alt="dropdown icon">
+      </div>
     </section>
   </body>
 </html>
