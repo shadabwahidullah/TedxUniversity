@@ -1,0 +1,33 @@
+.text-c {
+  text-align: center;
+}
+.about-desc {
+  padding: 20px;
+  font-size: 25px;
+  background: white;
+  border: 2px solid rgba(236, 236, 236, 0.75);
+}
+.moreinfo {
+  margin-top: 50px;
+  font-size: 20px;
+}
+.email {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.normal-title{
+    margin: 50px 0px 0px;
+}
+.normal-desc{
+    font-size: 20px;
+}
+.tedx-logo{
+    width: 90%;
+    border: solid 1px #d3d3d3;
+    margin: 50px 0px;
+}
+hr{
+    color: #d3d3d3;
+    opacity: 0.5;
+}
