@@ -72,3 +72,14 @@ hr {
     ),
     url(/images/tedxKabul.jpg);
 }
+
+.footer{
+    padding: 10px 15%;
+}
+.footer-logo{
+    width: 40%;
+    height: auto;
+}
+.copyright{
+    line-height: 25px;
+}
