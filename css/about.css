@@ -73,36 +73,16 @@ hr {
     ),
     url(/images/tedxKabul.jpg);
 }
-.partners {
-  background-color: #272a31;
-  padding: 20px;
-}
-.partners-title {
-  color: white;
-}
-.partners-logos {
-  margin-bottom: 50px;
-}
-.partner {
-  height: 40px;
-  width: auto;
-  margin: 0px 20px;
-}
-.partners-1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-.footer {
-  padding: 25px 15%;
-  justify-content: center;
-}
-.footer-logo {
-  width: 40%;
-  height: auto;
-  margin: 0px 10px;
-}
-.copyright {
-  line-height: 25px;
-  margin: 0px 10px;
+@media (min-width: 769px){
+  .partners{
+    display: none;
+  }
+  .footer{
+    background-color:  #272a31;
+    justify-content: start;
+    color: #d3d3d3;
+  }
+  .footer-logo{
+    content: url(/images/tedx-logo.png);
+  }
 }

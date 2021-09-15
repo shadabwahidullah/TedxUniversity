@@ -207,10 +207,49 @@ h1 h2 h3 h4 h5 h6 {
   font-size: 18px;
   margin: 10px;
 }
+.partners {
+  background-color: #272a31;
+  padding: 20px;
+}
+.partners-title {
+  color:#d3d3d3;
+}
+.partners-logos {
+  margin-bottom: 50px;
+}
+.partner {
+  height: 40px;
+  width: auto;
+  margin: 0px 20px;
+}
+.partners-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.homep{
+  display: none;
+}
+.homef{
+  display: none;
+}
+.footer {
+  padding: 25px 15%;
+  justify-content: center;
+}
+.footer-logo {
+  width: 40%;
+  height: auto;
+  margin: 0px 10px;
+}
+.copyright {
+  line-height: 25px;
+  margin: 0px 10px;
+}
 
 @media (min-width: 769px) {
   .g-padding {
-    padding: 0px 150px;
+    padding: 0px 15vw;
   }
   .d-navbar {
     display: flex;
@@ -221,12 +260,12 @@ h1 h2 h3 h4 h5 h6 {
     width: 250px;
   }
   .menu li {
-    margin: 0px 1vw;
+    margin: 0px 0.5vw;
     padding: 8px 10px;
   }
   .menu li:hover {
     border: solid 5px #ec5242;
-    margin: 3px calc(1vw - 5px);
+    margin: 3px calc(0.5vw - 5px);
   }
   .menu-icon {
     display: none;
@@ -240,7 +279,7 @@ h1 h2 h3 h4 h5 h6 {
     justify-content: start;
   }
   .line{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .list-item {
     margin: 0px 5px;
@@ -281,5 +320,12 @@ h1 h2 h3 h4 h5 h6 {
   }
   .morebtn{
     display: none;
+  }
+  .homep{
+    display: flex;
+  }
+  .homef{
+    display: flex;
+    justify-content: start;
   }
 }
