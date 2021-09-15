@@ -43,6 +43,10 @@ h1 h2 h3 h4 h5 h6 {
   padding: 30px;
 }
 
+.d-navbar {
+  display: none;
+}
+
 .menu {
   padding: 0%;
   list-style: none;
@@ -61,6 +65,7 @@ h1 h2 h3 h4 h5 h6 {
   background-image: url(/images/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 60vw;
 }
 
 .slogan {
@@ -70,6 +75,7 @@ h1 h2 h3 h4 h5 h6 {
   font-size: 50px;
   font-weight: 400;
   padding: 0px 10px;
+  max-width: 60vw;
 }
 .main-title {
   font-size: 100px;
@@ -81,8 +87,10 @@ h1 h2 h3 h4 h5 h6 {
 .desc {
   padding: 20px;
   font-size: 25px;
+  max-width: 700px;
   background: rgba(236, 236, 236, 0.75);
   border: 5px solid white;
+  max-width: 50vw;
 }
 .time {
   margin: 0px;
@@ -97,100 +105,125 @@ h1 h2 h3 h4 h5 h6 {
   padding: 0px 10px;
 }
 
-.line{
-    width: 50px;
-    height: 2px;
-    background-color: #ec5242;
-    margin: 10px;
-    color: none;
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 10px;
+  color: none;
 }
 
-.main-p-title{
-    margin: 0px;
-    margin-top: 70px;
-    margin-bottom: 5px;
-    color: white;
-    font-size: 30px;
+.main-p-title {
+  margin: 0px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 30px;
 }
-.main-programs{
-    background: #272a31;
+.main-programs {
+  background: #272a31;
 }
-.list{
-    margin: 30px;
-    padding: 0px;
+.list {
+  margin: 30px;
+  padding: 0px;
 }
-.list-item{
-    background: rgba(236, 236, 236, 0.10);
-    margin: 20px 0px;
-    padding: 20px;
+.list-item {
+  background: rgba(236, 236, 236, 0.1);
+  margin: 20px 0px;
+  padding: 20px;
 }
-.icon{
-    height: 70px;
-    width: 70px;
+.icon {
+  height: 70px;
+  width: 70px;
 }
-.cat-title{
-    color: #ec5242;
-    font-size: 40px;
-    padding: 0px 30px;
-    min-width: 200px;
+.cat-title {
+  color: #ec5242;
+  font-size: 40px;
+  padding: 0px 30px;
+  min-width: 200px;
 }
-.cat-desc{
-    color: white;
-    font-size: 25px;
+.cat-desc {
+  color: white;
+  font-size: 25px;
 }
-.btn{
-    background-color: #ec5242;
-    height: 100px;
-    width: 500px;
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: white;
-    border: none;
-    margin:  70px 0px 100px 0px;
+.btn {
+  background-color: #ec5242;
+  height: 100px;
+  width: 500px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  margin: 70px 0px 100px 0px;
 }
-.featured-speakers-title{
+.featured-speakers-title {
   font-size: 30px;
   margin: 0px;
   margin-top: 50px;
 }
-.speaker-card{
+.speaker-card {
   justify-content: left;
   margin: 50px 30px 0px;
 }
-.speaker-photo{
+.speaker-photo {
   max-width: 150px;
   max-height: 150px;
 }
-.speaker-body{
+.speaker-body {
   padding-left: 20px;
   max-width: 500px;
 }
-.speaker-name{
+.speaker-name {
   font-size: 30px;
   margin: 0%;
 }
-.speaker-position{
+.speaker-position {
   font-size: 15px;
   font-style: italic;
   color: #ec5242;
 }
-.speaker-line{
+.speaker-line {
   width: 30px;
   margin: 0px;
   color: #d3d3d3;
 }
-.morebtn{
+.morebtn {
   width: 90%;
   padding: 5px;
   justify-content: center;
   border: solid 1px #272a31;
   margin: 50px 0px;
 }
-.dropdown{
+.dropdown {
   width: 13px;
 }
-.more{
+.more {
   font-size: 18px;
   margin: 10px;
+}
+
+@media (min-width: 769px) {
+  .g-padding {
+    padding: 0px 150px;
+  }
+  .d-navbar {
+    display: flex;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    height: 100px;
+    width: 250px;
+  }
+  .menu li {
+    margin: 0px 1vw;
+    padding: 8px 10px;
+  }
+  .menu li:hover {
+    border: solid 5px #ec5242;
+    margin: 3px calc(1vw - 5px);
+  }
+  .menu-icon {
+    display: none;
+  }
 }
