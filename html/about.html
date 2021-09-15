@@ -14,13 +14,15 @@
     <!-- link to other files -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/about.css" />
+    <script src="/js/about.js" defer></script>
   </head>
   <body>
     <header>
       <div class="d-navbar flex g-padding">
         <a href="/index.html">
           <img class="logo" src="/images/tedx-logo.jpg" alt="TEDx's Logo" />
-        </a>        <nav class="d-nav">
+        </a>
+        <nav class="d-nav">
           <ul class="menu flex">
             <li><a class="menu-item" href="">About</a></li>
             <li><a class="menu-item" href="">Program</a></li>
@@ -32,13 +34,23 @@
       </div>
       <nav>
         <div>
-          <i class="fa fa-bars fa-80px menu-icon"></i>
+          <i class="fa fa-bars fa-80px menu-icon"  id="menu-icon" ></i>
         </div>
       </nav>
+      <div class="popup-menu hidden">
+        <ul class="popup flex-h" id="close-icon">
+          <li class="close"><span class="close">&times;</span></li>
+          <li><a class="popup-menu-item" href="/index.html">Home</a></li>
+          <li><a class="popup-menu-item" href="#">About</a></li>
+          <li><a class="popup-menu-item" href="">Program</a></li>
+          <li><a class="popup-menu-item" href="">Join</a></li>
+          <li><a class="popup-menu-item" href="">Sponsor</a></li>
+          <li><a class="popup-menu-item" href="">News</a></li>
+        </ul>
+      </div>
     </header>
     <!-- landing page  -->
     <section class="landing-page g-padding">
-     
       <p class="slogan text-c">"Ideas worth spreading"</p>
       <h1 class="main-title text-c">TEDx University 2021</h1>
       <div>
@@ -72,7 +84,7 @@
     <hr />
     <!-- Past TEDx -->
     <section class="flex-h past-tedxs g-padding">
-      <h2 class="normal-title text-c">See the pasd TEDx events</h2>
+      <h2 class="normal-title text-c">See the past TEDx events</h2>
       <div class="line"></div>
       <p class="normal-desc text-c">
         Take a look at the last two TEDx events took place in different parts of

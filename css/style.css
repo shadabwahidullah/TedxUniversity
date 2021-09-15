@@ -61,6 +61,31 @@ h1 h2 h3 h4 h5 h6 {
 .menu-icon {
   margin: 35px;
 }
+.close{
+  align-self: flex-end;
+  font-size: 40px;
+  margin: 0px 20px;
+}
+.popup-menu{
+  position: fixed;
+  z-index: 1;
+  background-color: #d3d3d3;
+  height: 100vh;
+  width: 100vw;
+}
+.popup{
+  list-style: none;
+  align-items: flex-start;
+}
+.popup-menu-item{
+  text-decoration: none;
+  border-bottom: 2px solid #272a31;
+  padding-bottom: 5px;
+  color: #272a31;
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: bold;
+}
 
 .landing-page {
   background-image: url(/images/cover.png);

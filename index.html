@@ -13,6 +13,7 @@
 
     <!-- link to other files -->
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -21,7 +22,7 @@
           <img class="logo" src="images/tedx-logo.jpg" alt="TEDx's Logo" />
         </a>
         <nav class="d-nav">
-          <ul class="menu flex">
+          <ul class="menu flex popup">
             <li><a class="menu-item" href="/html/about.html">About</a></li>
             <li><a class="menu-item" href="">Program</a></li>
             <li><a class="menu-item" href="">Join</a></li>
@@ -32,9 +33,20 @@
       </div>
       <nav>
         <div>
-          <i class="fa fa-bars fa-80px menu-icon"></i>
+          <i class="fa fa-bars fa-80px menu-icon" id="menu-icon"></i>
         </div>
       </nav>
+      <div class="popup-menu hidden">
+        <ul class="popup flex-h" id="close-icon">
+          <li class="close"><span class="close">&times;</span></li>
+          <li><a class="popup-menu-item" href="#">Home</a></li>
+          <li><a class="popup-menu-item" href="/html/about.html">About</a></li>
+          <li><a class="popup-menu-item" href="">Program</a></li>
+          <li><a class="popup-menu-item" href="">Join</a></li>
+          <li><a class="popup-menu-item" href="">Sponsor</a></li>
+          <li><a class="popup-menu-item" href="">News</a></li>
+        </ul>
+      </div>
     </header>
     <!-- landing page  -->
     <section class="landing-page g-padding">
