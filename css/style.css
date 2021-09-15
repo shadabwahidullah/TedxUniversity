@@ -169,7 +169,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 .speaker-card {
   justify-content: left;
-  margin: 50px 30px 0px;
+  margin-top: 50px;
 }
 .speaker-photo {
   max-width: 150px;
@@ -268,5 +268,18 @@ h1 h2 h3 h4 h5 h6 {
   .seeTheWhole{
     display: block;
     cursor: pointer;
+  }
+  .speaker-card{
+    margin: 0px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    padding-bottom: 8vh;
+  }
+  .morebtn{
+    display: none;
   }
 }
