@@ -76,7 +76,7 @@ hr {
       rgba(255, 94, 0, 0.52),
       rgba(190, 51, 9, 0.73)
     ),
-    url(/images/tedxDarulaman.jpg);
+    url(../images/tedxDarulaman.jpg);
 }
 
 .uni {
@@ -86,7 +86,7 @@ hr {
       rgba(255, 94, 0, 0.52),
       rgba(190, 51, 9, 0.73)
     ),
-    url(/images/tedxKabul.jpg);
+    url(../images/tedxKabul.jpg);
 }
 
 @media (min-width: 769px) {
@@ -107,6 +107,6 @@ hr {
   }
 
   .footer-logo {
-    content: url(/images/tedx-logo.png);
+    content: url(../images/tedx-logo.png);
   }
 }
