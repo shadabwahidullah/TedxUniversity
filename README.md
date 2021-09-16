@@ -4,9 +4,13 @@
 
 > As you may have seen or heard about TED. In this project I wanted to create a template for TEDx University. It can be used for other purposes like: Courses, events, organization and etc.
 
-![screenshot](./app_screenshot.png)
+How it looks on mobile.
+![screenshot](./TEDxUniversity-mobile.png)
 
-Additional description about the project and its features.
+How it looks on desktop.
+![screenshot](./TEDxUniversity-web.png)
+
+As you can see It's adaptive to screen size and have been designed both for pc and mobile users.
 
 ## Built With
 
