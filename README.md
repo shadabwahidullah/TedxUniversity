@@ -4,13 +4,13 @@
 
 > As you may have seen or heard about TED. In this project I wanted to create a template for TEDx University. It can be used for other purposes like: Courses, events, organization and etc.
 
-How it looks on mobile.
-![screenshot](./TEDxUniversity-mobile.png)
+## This is how it looks on desktop.
+![web screenshot](./images/TEDxUniversity-web.png)
 
-How it looks on desktop.
-![screenshot](./TEDxUniversity-web.png)
+## This is how it looks on mobile.
+![mob screenshot](./images/TEDxUniversity-mobile.png)
 
-As you can see It's adaptive to screen size and have been designed both for pc and mobile users.
+As you can see It's adaptive to screen size both for pc and mobile users.
 
 ## Built With
 
@@ -20,7 +20,7 @@ As you can see It's adaptive to screen size and have been designed both for pc a
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shadabwahidullah.github.io/TedxUniversity/)
 
 
 ## Getting Started
@@ -53,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+I want to thank Cindy Shin for providing the design. You can have more information about him [here](https://www.behance.net/adagio07).
 
 ## 📝 License
 
