@@ -89,6 +89,10 @@ hr {
     url('../images/tedxKabul.jpg');
 }
 
+.footer-logo-desk{
+  display: none;
+}
+
 @media (min-width: 769px) {
   .previous-event {
     height: 20vw;
@@ -106,7 +110,11 @@ hr {
     color: #d3d3d3;
   }
 
-  .footer-logo {
-    content: url('../images/tedx-logo.png');
+  .footer-logo-desk{
+    display: block;
+  }
+
+  .footer-logo-mobile{
+    display: none;
   }
 }
