@@ -118,7 +118,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .landing-page {
-  background-image: url(/images/cover.png);
+  background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
