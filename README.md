@@ -51,9 +51,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Credits 
 
-I want to thank Cindy Shin for providing the design. You can have more information about him [here](https://www.behance.net/adagio07).
+- Look & Feel and design (Cindy Shine [link](https://www.behance.net/adagio07))
 
 ## 📝 License
 
