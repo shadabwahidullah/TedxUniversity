@@ -89,7 +89,7 @@ hr {
     url('../images/tedxKabul.jpg');
 }
 
-.footer-logo-desk{
+.footer-logo-desk {
   display: none;
 }
 
@@ -110,11 +110,11 @@ hr {
     color: #d3d3d3;
   }
 
-  .footer-logo-desk{
+  .footer-logo-desk {
     display: block;
   }
 
-  .footer-logo-mobile{
+  .footer-logo-mobile {
     display: none;
   }
 }

@@ -44,25 +44,28 @@ h1 h2 h3 h4 h5 h6 {
   padding: 30px;
 }
 
-.d-dark{
+.d-dark {
   display: none;
   justify-content: flex-end;
   background-color: #272a31;
   color: white;
   height: 40px;
 }
-.d-dark-list{
+
+.d-dark-list {
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 0px;
+  margin: 0;
 }
-.fad{
+
+.fad {
   font-size: 25px;
   color: white;
 }
-.d-list-item{
-  margin: 0px 15px;
+
+.d-list-item {
+  margin: 0 15px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -333,9 +336,11 @@ h1 h2 h3 h4 h5 h6 {
   .g-padding {
     padding: 0 15vw;
   }
-  .d-dark{
+
+  .d-dark {
     display: flex;
   }
+
   .d-navbar {
     display: flex;
     box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
