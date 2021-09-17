@@ -92,8 +92,8 @@ closebtn.addEventListener('click', () => {
   menubtn.classList.toggle('hidden');
 });
 
-morebtn.addEventListener('click',() => {
+morebtn.addEventListener('click', () => {
   document.getElementById('partnerlist').classList.remove('homep');
   document.getElementById('footer').classList.remove('homef');
   morebtn.classList.add('hidden');
-})
+});
