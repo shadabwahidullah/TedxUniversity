@@ -40,6 +40,7 @@ const speakers = {
 const menubtn = document.getElementById('menu-icon');
 const closebtn = document.getElementById('close-icon');
 const popupMenu = document.querySelector('.popup-menu');
+const morebtn = document.querySelector('.morebtn');
 
 const speakersCards = document.querySelector('.grid');
 let speaker = null;
@@ -90,3 +91,9 @@ closebtn.addEventListener('click', () => {
   popupMenu.classList.toggle('hidden');
   menubtn.classList.toggle('hidden');
 });
+
+morebtn.addEventListener('click',() => {
+  document.getElementById('partnerlist').classList.remove('homep');
+  document.getElementById('footer').classList.remove('homef');
+  morebtn.classList.add('hidden');
+})
