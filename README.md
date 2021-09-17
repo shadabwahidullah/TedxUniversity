@@ -1,59 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TEDx University
 
-> One paragraph statement about the project.
+> As you may have seen or heard about TED. In this project I wanted to create a template for TEDx University. It can be used for other purposes like: Courses, events, organization and etc.
 
-![screenshot](./app_screenshot.png)
+## This is how it looks on desktop.
+![web screenshot](./images/TEDxUniversity-web.png)
 
-Additional description about the project and its features.
+## This is how it looks on mobile.
+![mob screenshot](./images/TEDxUniversity-mobile.png)
+
+As you can see It's adaptive to screen size both for pc and mobile users.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript DOM
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shadabwahidullah.github.io/TedxUniversity/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To use this project you need to first clone this project to your computer using git clone url command or by downloading the zip file. Once the download completed, run index.html file
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Wahidullah Shadab**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/shadabwahidullah)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahidullah-shadab-2712031a3)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,11 +51,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Credits 
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Look & Feel and design (Cindy Shine [link](https://www.behance.net/adagio07))
 
 ## 📝 License
 

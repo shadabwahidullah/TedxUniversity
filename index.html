@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEDxUniversity</title>
+    <!-- link to external resources -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- link to other files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="d-dark g-padding">
+        <ul class="d-dark-list">
+          <li class="d-list-item"><i class="fa fa-facebook fad"></i></li>
+          <li class="d-list-item"><i class="fa fa-twitter fad"></i></li>
+          <li class="d-list-item">English</li>
+          <li class="d-list-item">My Page</li>
+          <li class="d-list-item">Logout</li>          
+        </ul>
+      </div>
+      <div class="d-navbar flex g-padding">
+        <a href="#">
+          <img class="logo" src="images/tedx-logo.jpg" alt="TEDx's Logo" />
+        </a>
+        <nav class="d-nav">
+          <ul class="menu flex">
+            <li><a class="menu-item" href="html/about.html">About</a></li>
+            <li><a class="menu-item" href="">Program</a></li>
+            <li><a class="menu-item" href="">Join</a></li>
+            <li><a class="menu-item" href="">Sponsor</a></li>
+            <li><a class="menu-item" href="">News</a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav>
+        <div>
+          <i class="fa fa-bars fa-80px menu-icon" id="menu-icon"></i>
+        </div>
+      </nav>
+      <div class="popup-menu hidden">
+        <ul class="popup flex-h" id="close-icon">
+          <li class="close"><span class="close">&times;</span></li>
+          <li><a class="popup-menu-item" href="#">Home</a></li>
+          <li><a class="popup-menu-item" href="html/about.html">About</a></li>
+          <li><a class="popup-menu-item" href="">Program</a></li>
+          <li><a class="popup-menu-item" href="">Join</a></li>
+          <li><a class="popup-menu-item" href="">Sponsor</a></li>
+          <li><a class="popup-menu-item" href="">News</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- landing page  -->
+    <section class="landing-page g-padding">
+      <h2 class="slogan">"Ideas worth spreading"</h2>
+      <h1 class="main-title">TEDx University 2021</h1>
+      <div>
+        <p class="desc">
+          Holding your event for your university? This event type is for those
+          hosted at a college or university, and organized by current university
+          administration staff, faculty or students.
+        </p>
+      </div>
+      <h2 class="time">2021.12.25(FRI) ~ 27(SUN)</h2>
+      <p class="place">@Main Auditorium Faculty University</p>
+    </section>
+    <!-- main events part -->
+    <section class="main-programs flex-h g-padding">
+      <h2 class="main-p-title">Main Events</h2>
+      <div class="line"></div>
+      <ul class="list flex-h-d">
+        <li class="list-item flex flex-d">
+          <img class="icon" src="images/women.png" alt="cat-icon" />
+          <h2 class="cat-title">TEDx Women</h2>
+          <p class="cat-desc">
+            A TEDxWomen event is a TEDx event which celebrates a number of
+            different ideas,
+          </p>
+        </li>
+        <li class="list-item flex flex-d">
+          <img class="icon" src="images/university.png" alt="cat-icon" />
+          <h2 class="cat-title">University event</h2>
+          <p class="cat-desc">
+            Holding your event for your university? This event type is for those
+            hosted at a college or university,
+          </p>
+        </li>
+        <li class="list-item flex flex-d">
+          <img class="icon" src="images/youth.png" alt="cat-icon" />
+          <h2 class="cat-title">Youth event</h2>
+          <p class="cat-desc">
+            This is a TEDx event organized by, or catered toward, youth and/or
+            kids or school communities.
+          </p>
+        </li>
+        <li class="list-item flex flex-d">
+          <img class="icon" src="images/business.png" alt="cat-icon" />
+          <h2 class="cat-title">Business event</h2>
+          <p class="cat-desc">
+            TEDx Business events provide the framework for businesses to spark
+            innovation and ignite conversations through private,
+          </p>
+        </li>
+        <li class="list-item flex flex-d">
+          <img class="icon" src="images/library.png" alt="cat-icon" />
+          <h2 class="cat-title">Library event</h2>
+          <p class="cat-desc">
+            This event follows the same format as a standard event, except that
+            it is hosted by librarians at a local library.
+          </p>
+        </li>
+      </ul>
+      <a class="seeTheWhole">SEE THE WHOLE PROGRAM</a>
+      <button class="btn" type="button">Join TEDx Events</button>
+    </section>
+    <!-- feature speakers -->
+    <section class="featured-speakers flex-h g-padding">
+      <h2 class="featured-speakers-title">Featured Speakers</h2>
+      <div class="line"></div>
+      <div class="grid">
+      </div>
+      <div class="flex morebtn">
+        <p class="more">MORE</p>
+        <img class="dropdown" src="images/dropdown.png" alt="dropdown icon" />
+      </div>
+    </section>
+    <!-- partners for desktop -->
+    <section class="homep partners flex-h" id="partnerlist">
+      <h2 class="partners-title normal-title">Partners</h2>
+      <div class="line"></div>
+      <div class="partners-logos">
+        <div class="partners-1 flex">
+          <img
+            class="partner"
+            src="images/partners/Skoll_logo.png"
+            alt=" logo"
+          />
+          <img
+            class="partner"
+            src="images/partners/P_G_logo.png"
+            alt=" logo"
+          />
+          <img
+            class="partner"
+            src="images/partners/ypf_logo.png"
+            alt=" logo"
+          />
+          <img
+            class="partner"
+            src="images/partners/logitech_logo.png"
+            alt=" logo"
+          />
+          <img
+            class="partner"
+            src="images/partners/JetBlueLogo.png"
+            alt=" logo"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="homef g-padding flex" id="footer">
+      <img class="footer-logo" src="images/tedx-logo.jpg" alt="TEDx's Logo" />
+      <p class="copyright">
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Wahidullah Shadab <br />
+        All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>

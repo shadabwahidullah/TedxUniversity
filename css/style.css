@@ -1,0 +1,441 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: Lato, monospace;
+  color: #272a31;
+  margin: 0%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: cocogoose, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* set display flex and direction horizontal */
+.flex-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* set display flex and direction vertical */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.fa {
+  font-size: 60px;
+  color: #272a31;
+}
+
+.g-padding {
+  padding: 30px;
+}
+
+.d-dark {
+  display: none;
+  justify-content: flex-end;
+  background-color: #272a31;
+  color: white;
+  height: 40px;
+}
+
+.d-dark-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.fad {
+  font-size: 25px;
+  color: white;
+}
+
+.d-list-item {
+  margin: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.d-navbar {
+  display: none;
+}
+
+.menu {
+  padding: 0%;
+  list-style: none;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.menu-icon {
+  margin: 35px;
+}
+
+.close {
+  align-self: flex-end;
+  font-size: 40px;
+  margin: 0 20px;
+}
+
+.popup-menu {
+  position: fixed;
+  z-index: 1;
+  background-color: #d3d3d3;
+  height: 100vh;
+  width: 100vw;
+}
+
+.popup {
+  list-style: none;
+  align-items: flex-start;
+}
+
+.popup-menu-item {
+  text-decoration: none;
+  border-bottom: 2px solid #272a31;
+  padding-bottom: 5px;
+  color: #272a31;
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.landing-page {
+  background-image: url(../images/cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  margin: 0;
+  margin-top: 10vh;
+  color: #ec5242;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.main-title {
+  font-size: 100px;
+  font-weight: bolder;
+  color: #ec5242;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.desc {
+  padding: 20px;
+  font-size: 25px;
+  max-width: 700px;
+  background: rgba(236, 236, 236, 0.75);
+  border: 5px solid white;
+}
+
+.time {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 0 10px;
+}
+
+.place {
+  font-size: 30px;
+  margin: 0;
+  padding: 0 10px 10vh;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 10px;
+}
+
+.main-p-title {
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.main-programs {
+  background: #272a31;
+}
+
+.list {
+  padding: 0;
+}
+
+.list-item {
+  background: rgba(236, 236, 236, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+}
+
+.cat-title {
+  color: #ec5242;
+  font-size: 40px;
+  padding: 0 30px;
+  min-width: 200px;
+}
+
+.cat-desc {
+  color: white;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: #ec5242;
+  height: 100px;
+  width: 500px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  margin: 70px 0 100px 0;
+}
+
+.seeTheWhole {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid white;
+  letter-spacing: 2px;
+  color: white;
+  margin: 70px 0 100px 0;
+  display: none;
+}
+
+.featured-speakers-title {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.speaker-card {
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.speaker-photo {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.speaker-body {
+  padding-left: 20px;
+  max-width: 500px;
+}
+
+.speaker-name {
+  font-size: 30px;
+  margin: 0%;
+}
+
+.speaker-position {
+  font-size: 15px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.speaker-line {
+  width: 30px;
+  margin: 0;
+  color: #d3d3d3;
+}
+
+.morebtn {
+  width: 90%;
+  padding: 5px;
+  justify-content: center;
+  border: solid 1px #272a31;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 13px;
+}
+
+.more {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.partners {
+  background-color: #272a31;
+  padding: 20px;
+}
+
+.partners-title {
+  color: #d3d3d3;
+}
+
+.partners-logos {
+  margin-bottom: 50px;
+}
+
+.partner {
+  height: 40px;
+  width: auto;
+  margin: 0 20px;
+}
+
+.partners-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.homep {
+  display: none;
+}
+
+.homef {
+  display: none;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 40%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.copyright {
+  line-height: 25px;
+  margin: 0 10px;
+}
+
+@media (min-width: 769px) {
+  .g-padding {
+    padding: 0 15vw;
+  }
+
+  .d-dark {
+    display: flex;
+  }
+
+  .d-navbar {
+    display: flex;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    height: 100px;
+    width: 250px;
+    cursor: pointer;
+  }
+
+  .menu li {
+    margin: 0 0.5vw;
+    padding: 8px 10px;
+  }
+
+  .menu li:hover {
+    border: solid 5px #ec5242;
+    margin: 3px calc(0.5vw - 5px);
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .flex-h-d {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-d {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .line {
+    margin-bottom: 30px;
+  }
+
+  .list-item {
+    margin: 0 5px;
+    width: 12vw;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .cat-title {
+    margin: 10px 0;
+    padding: 0;
+    min-width: 100px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cat-desc {
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .seeTheWhole {
+    display: block;
+    cursor: pointer;
+  }
+
+  .speaker-card {
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    padding-bottom: 8vh;
+  }
+
+  .morebtn {
+    display: none;
+  }
+
+  .homep {
+    display: flex;
+  }
+
+  .homef {
+    display: flex;
+    justify-content: start;
+  }
+}
