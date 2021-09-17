@@ -273,6 +273,7 @@ h1 h2 h3 h4 h5 h6 {
   justify-content: center;
   border: solid 1px #272a31;
   margin: 50px 0;
+  cursor: pointer;
 }
 
 .dropdown {
